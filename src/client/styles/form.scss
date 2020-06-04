@@ -1,0 +1,52 @@
+
+.analysis {
+    margin: 25px auto;
+}
+
+#name{
+    padding: 10px;
+    width: 600px;
+}
+
+.analysis__form {
+  display: flex;
+}
+
+input {
+  margin: 10px;
+}
+
+#submit {
+    padding: 5px;
+    width: 150px;
+}
+
+#submit:hover {
+    background-color: yellow;
+    padding: 4px;
+}
+
+.results_heading {
+    text-align: center;
+    margin: 40px auto 5px auto;
+    color: wheat;
+}
+
+.results_secs {
+  border: solid 2px red;
+}
+
+.results_sec {
+    margin: 10px;
+    display: flex;
+    color: #31c92e;
+}
+
+.res {
+  margin-left: 15px;
+  margin-top: 20px;
+  color: wheat;
+}
+
+
+

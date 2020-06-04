@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    background-color: #33364a;
+}
+
+section {
+    max-width: 60%;
+
+}
+
+
+
+@media (max-width: 800px) {
+  body {
+  	min-height: auto;
+	}
+}

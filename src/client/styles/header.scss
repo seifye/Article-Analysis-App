@@ -1,0 +1,28 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+	margin: auto 15px 15px 15px;
+	border-bottom: solid 2px red;
+	color: wheat;
+}
+
+
+#header_nlp {
+	font-size: 15px;
+}
+
+
+@media (max-width: 800px) {
+  header {
+  	marhin: 0px;
+	}
+}
+
+
+
+
+
+
+

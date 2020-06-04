@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Natural Language Processing (NLP)</title>
+</head>
+
+<body>
+    <header id="header-nlp">
+        <h1> Natural Language Processing: </h1>
+    </header>
+
+    <section class="analysis" id="analysis">
+        <div class="form__wrapper">
+            <form class="analysis__form" onsubmit="Client.handleSubmit(event)">
+                <input id="name" type="text" name="input[url]" placeholder="Please enter the URL of the article">
+                <input id="submit" type="submit" value="submit">
+            </form>
+            <div class="results" id="results">
+                <h2 class="results_heading"> Results </h2>
+                <div class="results_secs">
+                    <div class="results_sec">
+                        <h3>Polarity:</h3>
+                        <div class="polarity res"></div>
+                    </div>
+                    <div class="results_sec">
+                        <h3>Subjectivity:</h3>
+                        <div class="subjectivity res"></div>
+                    </div>
+                    <div class="results_sec">
+                        <h3>Polarity Confidence:</h3>
+                        <div class=" polarity_confidence res"></div>
+                    </div>
+                    <div class="results_sec">
+                        <h3>Subjectivity Confidence:</h3>
+                        <div class="subjectivity_confidence res"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Text and data analysis are provided by <a href="https://aylien.com" target="_blank">Aylien API</a></p>
+    </footer>
+
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
+</body>
+
+</html>
