@@ -20,25 +20,25 @@ The goal of this project is to practice with:
 
 ## Getting started
 
-# Install packages and dependecies to produce the node_modules folder
+### Install packages and dependecies to produce the node_modules folder
 	$npm install
 
-# Install the webpack dev server globally
+### Install the webpack dev server globally
 	npm install -g webpack-dev-server
 
-# Add a .env file and fill the .env file with your API keys:
+### Add a .env file and fill the .env file with your API keys:
 	API_ID=**************************
 	API_KEY=**************************
 
-# Start server at port number: 8000
+### Start server at port number: 8000
     $npm start
 
-# Run the app in the dev mode
+### Run the app in the dev mode
 	$ npm run build-dev
 	$ npm run start
 	Note:: The web page can be accessed with localhost:7000
 
-# Run the app in the prod mode
+### Run the app in the prod mode
 	$ npm run build-prod
 	$ npm run start
 	Note:: The web page can be accessed with localhost:8000
@@ -58,7 +58,7 @@ The project have service workers set up in webpack.
     npm test
 
 
-### Result
+## Result
 <img src='screenshots/result.png'>
 
 
