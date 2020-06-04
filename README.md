@@ -30,7 +30,7 @@ The goal of this project is to practice with:
 	API_ID=**************************
 	API_KEY=**************************
 
-### Start server at port number: 8000
+### Install node.js on your machine and then start server at port number: 8000
     $npm start
 
 ### Run the app in the dev mode
