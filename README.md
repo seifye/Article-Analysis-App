@@ -59,6 +59,6 @@ The project have service workers set up in webpack.
 
 
 ### Result
-<img src='screenshots/result.png>
+<img src='screenshots/result.png'>
 
 
