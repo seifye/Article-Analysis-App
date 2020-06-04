@@ -2,7 +2,7 @@
 
 ## Project 4 - News Article NLP (Front End Developer Udacity Nanodegree)
 
-### created with HTML, CSS, Javascript (Vanilla), Node.js, and webpack
+### Created with HTML, CSS, Javascript (Vanilla), Node.js, and webpack
 
 
 ### Project Objective
