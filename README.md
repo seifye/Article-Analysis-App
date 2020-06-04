@@ -54,7 +54,7 @@ The project have service workers set up in webpack.
 
 ## Testing
 
-# Fire test with Jest and watch tests
+### Fire test with Jest and watch tests
     npm test
 
 
